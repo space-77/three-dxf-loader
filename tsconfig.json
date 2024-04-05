@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "types",
+  },
+  "include": [
+    "src/loader/index.js",
+    "src/viewer/index.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
